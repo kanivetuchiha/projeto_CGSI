@@ -8,7 +8,7 @@
 
 
 body {
-    background: linear-gradient(to bottom, #3a86ff, #023e8a);
+    background: linear-gradient(to bottom, #011638, #023e8a);
     color: #fff;
     min-height: 100vh;
 }
@@ -51,17 +51,20 @@ nav {
 
 
 .card {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(12, 2, 68, 0.699);
     border-radius: 10px;
     overflow: hidden;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .card img {
-    width: 100%;
-    height: auto;
+    width: 290px;      
+    height: 200px;    
+    margin: 5px;
     display: block;
+    object-fit: cover;
 }
+
 
 .card-info {
     padding: 1rem;
